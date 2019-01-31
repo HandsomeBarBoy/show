@@ -22,3 +22,7 @@ function tt1(){
     }
 }
 setInterval(tt1,10);
+function cc1(){
+    var c = document.getElementById("password");
+    c.value = "";
+}
