@@ -21,3 +21,4 @@ function tt1(){
         a.style.display="inline-block";
     }
 }
+setInterval(tt1,10);
