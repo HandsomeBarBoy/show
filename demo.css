@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("./bg-image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#login,#password-login{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    top:0;left: 0;right: 0;bottom: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+}
+#login{
+    transform: scale(0);
+}
+#login p{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 10px 0 ; 
+}
+#login a,#password-login a{
+    margin: 0 5px;
+    color: darkgrey;
+    font-size: 15px;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+.img{
+    position: absolute;
+    left: 0;top: 0;right: 0;bottom: 0;
+    margin: auto;
+}
+.bottom{
+    width: 100%;
+    height:20px;
+    bottom: 10px;
+    position: absolute;
+}
+#login p:nth-child(2){
+    font-size: 15px;
+}
+#password-login p:nth-child(1){
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+}
+#password-login p:nth-child(2){
+    color: darkgray;
+}
+#user,#password{
+    border:none;
+    text-indent: 15px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+#submit{
+    width: 268px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: #9fd355;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+#login-account,#login-password{
+    width: 268px;
+    height: 38px;
+    border: darkgray solid 1px;
+    margin: 20px auto 0;
+    position: relative;
+    border-radius: 2px;
+}
+#clear-user,#clear-password{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-image: url("./image/close.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: none;
+}
